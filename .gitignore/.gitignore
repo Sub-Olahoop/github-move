@@ -1,0 +1,7 @@
+echo "# github-move" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Sub-Olahoop/github-move.git
+git push -u origin master
+                
